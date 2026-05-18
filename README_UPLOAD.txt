@@ -1,32 +1,19 @@
-CurtainTrack.company static website - upload-ready package
+CurtainTrack.company static site - root-level blog URL version
 
-Upload the CONTENTS of this folder to your static web host's public/root directory.
+Upload the CONTENTS of this folder to your website root.
 
-Included:
-- index.html: styled blue/white/black homepage
-- blog/index.html: searchable blog archive
-- posts/: 216 standalone blog post HTML pages
-- assets/: shared CSS and JavaScript
-- sitemap.xml and robots.txt
-- conversion-manifest.json
+Important files/folders:
+- index.html = homepage
+- style.css = homepage/root stylesheet copy
+- assets/style.css = shared site stylesheet
+- assets/site.js = shared JavaScript
+- blog/index.html = searchable archive page
+- [post-slug]/index.html = individual blog posts directly off the main URL
+- sitemap.xml = updated sitemap with root-level blog post URLs
+- robots.txt = search engine crawl rules
+- CNAME = GitHub Pages custom domain: curtaintrack.company
 
-Recommended host options:
-- Cloudflare Pages
-- Netlify
-- Vercel
-- GitHub Pages
-- Any cPanel/static host
+Blog post URL format:
+https://curtaintrack.company/best-curtain-track-gliders-for-smooth-silent-operation/
 
-After upload, test:
-- /
-- /blog/
-- /posts/install-ceiling-curtain-tracks-like-a-pro-diy-guide/
-
-
-Homepage update: includes hero image at assets/images/hero-curtaintrack.jpg and updated hero layout in index.html.
-
-
-Clean URL update:
-- Blog posts now live at /posts/post-slug/ using /posts/post-slug/index.html.
-- Internal links, homepage links, blog archive links, and sitemap URLs were updated to remove .html from post URLs.
-- vercel.json includes cleanUrls and trailingSlash settings for Vercel hosting.
+Converted post folders: 216
