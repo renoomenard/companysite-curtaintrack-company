@@ -1,0 +1,17 @@
+{
+  "source": "curtaintrackcompany.WordPress.2026-05-18.xml",
+  "generated_posts": 216,
+  "first_post": "Install Ceiling Curtain Tracks Like a Pro - DIY Guide",
+  "latest_post": "Best Curtain Track Gliders for Smooth Silent Operation",
+  "output_structure": [
+    "index.html",
+    "blog/index.html",
+    "posts/<slug>.html",
+    "assets/style.css",
+    "assets/site.js",
+    "sitemap.xml",
+    "robots.txt"
+  ],
+  "style_update": "Blue / white / black interface styling applied to shared CSS",
+  "style_updated_at": "2026-05-18"
+}
