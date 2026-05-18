@@ -1,17 +1,19 @@
 {
   "source": "curtaintrackcompany.WordPress.2026-05-18.xml",
-  "generated_posts": 216,
-  "first_post": "Install Ceiling Curtain Tracks Like a Pro - DIY Guide",
-  "latest_post": "Best Curtain Track Gliders for Smooth Silent Operation",
+  "generated_post_count": 216,
+  "url_structure": "root-level folders: /post-slug/",
+  "example_article_url": "https://curtaintrack.company/best-curtain-track-gliders-for-smooth-silent-operation/",
   "output_structure": [
     "index.html",
+    "style.css",
     "blog/index.html",
-    "posts/<slug>.html",
+    "<post-slug>/index.html",
     "assets/style.css",
     "assets/site.js",
+    "assets/images/hero-curtaintrack.jpg",
     "sitemap.xml",
-    "robots.txt"
+    "robots.txt",
+    "CNAME"
   ],
-  "style_update": "Blue / white / black interface styling applied to shared CSS",
-  "style_updated_at": "2026-05-18"
+  "notes": "Article pages were moved directly off the main URL. The old nested article folder is no longer used."
 }

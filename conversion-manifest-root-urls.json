@@ -1,0 +1,11 @@
+{
+  "version": "root-level-blog-urls",
+  "post_count": 216,
+  "post_url_example": "https://curtaintrack.company/best-curtain-track-gliders-for-smooth-silent-operation/",
+  "archive_url": "https://curtaintrack.company/blog/",
+  "root_stylesheet": "style.css",
+  "shared_stylesheet": "assets/style.css",
+  "validation_errors": [
+    "remaining posts references: conversion-manifest.json"
+  ]
+}
